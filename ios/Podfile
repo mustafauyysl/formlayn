@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'formlayn' do
+target 'Formlayn' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'formlaynTests' do
+  target 'FormlaynTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'formlayn' do
   end
 end
 
-target 'formlayn-tvOS' do
-  # Pods for formlayn-tvOS
+target 'Formlayn-tvOS' do
+  # Pods for Formlayn-tvOS
 
-  target 'formlayn-tvOSTests' do
+  target 'Formlayn-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

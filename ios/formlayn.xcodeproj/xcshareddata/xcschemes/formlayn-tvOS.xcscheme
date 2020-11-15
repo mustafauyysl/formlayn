@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "formlayn-tvOS.app"
-               BlueprintName = "formlayn-tvOS"
-               ReferencedContainer = "container:formlayn.xcodeproj">
+               BuildableName = "Formlayn-tvOS.app"
+               BlueprintName = "Formlayn-tvOS"
+               ReferencedContainer = "container:Formlayn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "formlayn-tvOSTests.xctest"
-               BlueprintName = "formlayn-tvOSTests"
-               ReferencedContainer = "container:formlayn.xcodeproj">
+               BuildableName = "Formlayn-tvOSTests.xctest"
+               BlueprintName = "Formlayn-tvOSTests"
+               ReferencedContainer = "container:Formlayn.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "formlayn-tvOS.app"
-            BlueprintName = "formlayn-tvOS"
-            ReferencedContainer = "container:formlayn.xcodeproj">
+            BuildableName = "Formlayn-tvOS.app"
+            BlueprintName = "Formlayn-tvOS"
+            ReferencedContainer = "container:Formlayn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "formlayn-tvOS.app"
-            BlueprintName = "formlayn-tvOS"
-            ReferencedContainer = "container:formlayn.xcodeproj">
+            BuildableName = "Formlayn-tvOS.app"
+            BlueprintName = "Formlayn-tvOS"
+            ReferencedContainer = "container:Formlayn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

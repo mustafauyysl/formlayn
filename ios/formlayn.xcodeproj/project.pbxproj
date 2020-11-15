@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* formlaynTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* formlaynTests.m */; };
-		06B7D448CCF1EAD453B76528 /* libPods-formlayn-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F084E4EDAB265549B13D370 /* libPods-formlayn-tvOS.a */; };
+		00E356F31AD99517003FC87E /* FormlaynTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FormlaynTests.m */; };
+		06B7D448CCF1EAD453B76528 /* libPods-Formlayn-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F084E4EDAB265549B13D370 /* libPods-Formlayn-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* formlaynTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* formlaynTests.m */; };
-		2EE36B1F69C6EA39AEBBD1A3 /* libPods-formlayn-formlaynTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE123930CEF59DB78BC32 /* libPods-formlayn-formlaynTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* FormlaynTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FormlaynTests.m */; };
+		2EE36B1F69C6EA39AEBBD1A3 /* libPods-Formlayn-FormlaynTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE123930CEF59DB78BC32 /* libPods-Formlayn-FormlaynTests.a */; };
 		45E5D3C7255FB8C8008805E1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 45E5D3C6255FB8C8008805E1 /* www */; };
-		76C71FC57B7B7CA4D4C7A549 /* libPods-formlayn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49407BD8F79CD787841F9CB8 /* libPods-formlayn-tvOSTests.a */; };
-		777577C19EBAF22084915766 /* libPods-formlayn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BBA5AF0A3DBC5CC982C7E8 /* libPods-formlayn.a */; };
+		76C71FC57B7B7CA4D4C7A549 /* libPods-Formlayn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49407BD8F79CD787841F9CB8 /* libPods-Formlayn-tvOSTests.a */; };
+		777577C19EBAF22084915766 /* libPods-Formlayn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -29,44 +29,44 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = formlayn;
+			remoteInfo = Formlayn;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "formlayn-tvOS";
+			remoteInfo = "Formlayn-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* formlaynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = formlaynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* FormlaynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormlaynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* formlaynTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = formlaynTests.m; sourceTree = "<group>"; };
-		088B7D80DED1719FF7809C1D /* Pods-formlayn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-formlayn-tvOSTests/Pods-formlayn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* formlayn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = formlayn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = formlayn/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = formlayn/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = formlayn/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = formlayn/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = formlayn/main.m; sourceTree = "<group>"; };
-		19DBE123930CEF59DB78BC32 /* libPods-formlayn-formlaynTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formlayn-formlaynTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* formlayn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "formlayn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* formlayn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "formlayn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F084E4EDAB265549B13D370 /* libPods-formlayn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formlayn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45E5D3C6255FB8C8008805E1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = formlayn/www; sourceTree = "<group>"; };
-		47BBA5AF0A3DBC5CC982C7E8 /* libPods-formlayn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formlayn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49407BD8F79CD787841F9CB8 /* libPods-formlayn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formlayn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DFF186C9BFE4D8302386511 /* Pods-formlayn-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-formlayn-tvOS/Pods-formlayn-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = formlayn/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8FDA3095041ED317D4C1F294 /* Pods-formlayn-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-formlayn-tvOSTests/Pods-formlayn-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		936F92BAED2ADB8FD83760A3 /* Pods-formlayn-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-tvOS.release.xcconfig"; path = "Target Support Files/Pods-formlayn-tvOS/Pods-formlayn-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A2CA7DEBB206919E67870899 /* Pods-formlayn-formlaynTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-formlaynTests.release.xcconfig"; path = "Target Support Files/Pods-formlayn-formlaynTests/Pods-formlayn-formlaynTests.release.xcconfig"; sourceTree = "<group>"; };
-		ACB115B90F46912161B7548D /* Pods-formlayn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn.debug.xcconfig"; path = "Target Support Files/Pods-formlayn/Pods-formlayn.debug.xcconfig"; sourceTree = "<group>"; };
-		D97906EB916CD614C267EA60 /* Pods-formlayn-formlaynTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn-formlaynTests.debug.xcconfig"; path = "Target Support Files/Pods-formlayn-formlaynTests/Pods-formlayn-formlaynTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAA64D9EFF1A62230E732B5B /* Pods-formlayn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formlayn.release.xcconfig"; path = "Target Support Files/Pods-formlayn/Pods-formlayn.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FormlaynTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormlaynTests.m; sourceTree = "<group>"; };
+		088B7D80DED1719FF7809C1D /* Pods-Formlayn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Formlayn-tvOSTests/Pods-Formlayn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Formlayn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formlayn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Formlayn/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Formlayn/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Formlayn/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Formlayn/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Formlayn/main.m; sourceTree = "<group>"; };
+		19DBE123930CEF59DB78BC32 /* libPods-Formlayn-FormlaynTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn-FormlaynTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Formlayn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Formlayn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Formlayn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Formlayn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F084E4EDAB265549B13D370 /* libPods-Formlayn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E5D3C6255FB8C8008805E1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = Formlayn/www; sourceTree = "<group>"; };
+		47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49407BD8F79CD787841F9CB8 /* libPods-Formlayn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFF186C9BFE4D8302386511 /* Pods-Formlayn-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Formlayn-tvOS/Pods-Formlayn-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Formlayn/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FDA3095041ED317D4C1F294 /* Pods-Formlayn-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Formlayn-tvOSTests/Pods-Formlayn-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		936F92BAED2ADB8FD83760A3 /* Pods-Formlayn-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Formlayn-tvOS/Pods-Formlayn-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A2CA7DEBB206919E67870899 /* Pods-Formlayn-FormlaynTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-FormlaynTests.release.xcconfig"; path = "Target Support Files/Pods-Formlayn-FormlaynTests/Pods-Formlayn-FormlaynTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACB115B90F46912161B7548D /* Pods-Formlayn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn.debug.xcconfig"; path = "Target Support Files/Pods-Formlayn/Pods-Formlayn.debug.xcconfig"; sourceTree = "<group>"; };
+		D97906EB916CD614C267EA60 /* Pods-Formlayn-FormlaynTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn-FormlaynTests.debug.xcconfig"; path = "Target Support Files/Pods-Formlayn-FormlaynTests/Pods-Formlayn-FormlaynTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA64D9EFF1A62230E732B5B /* Pods-Formlayn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Formlayn.release.xcconfig"; path = "Target Support Files/Pods-Formlayn/Pods-Formlayn.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE36B1F69C6EA39AEBBD1A3 /* libPods-formlayn-formlaynTests.a in Frameworks */,
+				2EE36B1F69C6EA39AEBBD1A3 /* libPods-Formlayn-FormlaynTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777577C19EBAF22084915766 /* libPods-formlayn.a in Frameworks */,
+				777577C19EBAF22084915766 /* libPods-Formlayn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B7D448CCF1EAD453B76528 /* libPods-formlayn-tvOS.a in Frameworks */,
+				06B7D448CCF1EAD453B76528 /* libPods-Formlayn-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +100,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C71FC57B7B7CA4D4C7A549 /* libPods-formlayn-tvOSTests.a in Frameworks */,
+				76C71FC57B7B7CA4D4C7A549 /* libPods-Formlayn-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* formlaynTests */ = {
+		00E356EF1AD99517003FC87E /* FormlaynTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* formlaynTests.m */,
+				00E356F21AD99517003FC87E /* FormlaynTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = formlaynTests;
+			path = FormlaynTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -124,7 +124,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* formlayn */ = {
+		13B07FAE1A68108700A75B9A /* Formlayn */ = {
 			isa = PBXGroup;
 			children = (
 				45E5D3C6255FB8C8008805E1 /* www */,
@@ -136,7 +136,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = formlayn;
+			name = Formlayn;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -144,10 +144,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				47BBA5AF0A3DBC5CC982C7E8 /* libPods-formlayn.a */,
-				19DBE123930CEF59DB78BC32 /* libPods-formlayn-formlaynTests.a */,
-				2F084E4EDAB265549B13D370 /* libPods-formlayn-tvOS.a */,
-				49407BD8F79CD787841F9CB8 /* libPods-formlayn-tvOSTests.a */,
+				47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */,
+				19DBE123930CEF59DB78BC32 /* libPods-Formlayn-FormlaynTests.a */,
+				2F084E4EDAB265549B13D370 /* libPods-Formlayn-tvOS.a */,
+				49407BD8F79CD787841F9CB8 /* libPods-Formlayn-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* formlayn */,
+				13B07FAE1A68108700A75B9A /* Formlayn */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* formlaynTests */,
+				00E356EF1AD99517003FC87E /* FormlaynTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D3DF981CEC8F82D07E09602A /* Pods */,
@@ -177,10 +177,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* formlayn.app */,
-				00E356EE1AD99517003FC87E /* formlaynTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* formlayn-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* formlayn-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Formlayn.app */,
+				00E356EE1AD99517003FC87E /* FormlaynTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Formlayn-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Formlayn-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,14 +188,14 @@
 		D3DF981CEC8F82D07E09602A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ACB115B90F46912161B7548D /* Pods-formlayn.debug.xcconfig */,
-				DAA64D9EFF1A62230E732B5B /* Pods-formlayn.release.xcconfig */,
-				D97906EB916CD614C267EA60 /* Pods-formlayn-formlaynTests.debug.xcconfig */,
-				A2CA7DEBB206919E67870899 /* Pods-formlayn-formlaynTests.release.xcconfig */,
-				6DFF186C9BFE4D8302386511 /* Pods-formlayn-tvOS.debug.xcconfig */,
-				936F92BAED2ADB8FD83760A3 /* Pods-formlayn-tvOS.release.xcconfig */,
-				088B7D80DED1719FF7809C1D /* Pods-formlayn-tvOSTests.debug.xcconfig */,
-				8FDA3095041ED317D4C1F294 /* Pods-formlayn-tvOSTests.release.xcconfig */,
+				ACB115B90F46912161B7548D /* Pods-Formlayn.debug.xcconfig */,
+				DAA64D9EFF1A62230E732B5B /* Pods-Formlayn.release.xcconfig */,
+				D97906EB916CD614C267EA60 /* Pods-Formlayn-FormlaynTests.debug.xcconfig */,
+				A2CA7DEBB206919E67870899 /* Pods-Formlayn-FormlaynTests.release.xcconfig */,
+				6DFF186C9BFE4D8302386511 /* Pods-Formlayn-tvOS.debug.xcconfig */,
+				936F92BAED2ADB8FD83760A3 /* Pods-Formlayn-tvOS.release.xcconfig */,
+				088B7D80DED1719FF7809C1D /* Pods-Formlayn-tvOSTests.debug.xcconfig */,
+				8FDA3095041ED317D4C1F294 /* Pods-Formlayn-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* formlaynTests */ = {
+		00E356ED1AD99517003FC87E /* FormlaynTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "formlaynTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FormlaynTests" */;
 			buildPhases = (
 				CCA1DE90D37464B26BD5C67A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -218,14 +218,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = formlaynTests;
-			productName = formlaynTests;
-			productReference = 00E356EE1AD99517003FC87E /* formlaynTests.xctest */;
+			name = FormlaynTests;
+			productName = FormlaynTests;
+			productReference = 00E356EE1AD99517003FC87E /* FormlaynTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* formlayn */ = {
+		13B07F861A680F5B00A75B9A /* Formlayn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "formlayn" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Formlayn" */;
 			buildPhases = (
 				A5F7079A21FB3F2DFDFFC6B2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -239,14 +239,14 @@
 			);
 			dependencies = (
 			);
-			name = formlayn;
-			productName = formlayn;
-			productReference = 13B07F961A680F5B00A75B9A /* formlayn.app */;
+			name = Formlayn;
+			productName = Formlayn;
+			productReference = 13B07F961A680F5B00A75B9A /* Formlayn.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* formlayn-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Formlayn-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "formlayn-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Formlayn-tvOS" */;
 			buildPhases = (
 				E1BD1E8621BEDDD57C0FD841 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -259,14 +259,14 @@
 			);
 			dependencies = (
 			);
-			name = "formlayn-tvOS";
-			productName = "formlayn-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* formlayn-tvOS.app */;
+			name = "Formlayn-tvOS";
+			productName = "Formlayn-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Formlayn-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* formlayn-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Formlayn-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "formlayn-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Formlayn-tvOSTests" */;
 			buildPhases = (
 				D98B7CE2AF9AC0EDB9B2FCA3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -278,9 +278,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "formlayn-tvOSTests";
-			productName = "formlayn-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* formlayn-tvOSTests.xctest */;
+			name = "Formlayn-tvOSTests";
+			productName = "Formlayn-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Formlayn-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "formlayn" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Formlayn" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -322,10 +322,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* formlayn */,
-				00E356ED1AD99517003FC87E /* formlaynTests */,
-				2D02E47A1E0B4A5D006451C7 /* formlayn-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* formlayn-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Formlayn */,
+				00E356ED1AD99517003FC87E /* FormlaynTests */,
+				2D02E47A1E0B4A5D006451C7 /* Formlayn-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Formlayn-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +400,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-formlayn-formlaynTests/Pods-formlayn-formlaynTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Formlayn-FormlaynTests/Pods-Formlayn-FormlaynTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -441,7 +441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-formlayn-formlaynTests/Pods-formlayn-formlaynTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Formlayn-FormlaynTests/Pods-Formlayn-FormlaynTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5F7079A21FB3F2DFDFFC6B2 /* [CP] Check Pods Manifest.lock */ = {
@@ -459,7 +459,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-formlayn-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Formlayn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,7 +481,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-formlayn-formlaynTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Formlayn-FormlaynTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -503,7 +503,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-formlayn-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Formlayn-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -525,7 +525,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-formlayn-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Formlayn-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -538,7 +538,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-formlayn/Pods-formlayn-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Formlayn/Pods-Formlayn-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -579,7 +579,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-formlayn/Pods-formlayn-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Formlayn/Pods-Formlayn-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -627,7 +627,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* formlaynTests.m in Sources */,
+				00E356F31AD99517003FC87E /* FormlaynTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* formlaynTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* FormlaynTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,12 +662,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* formlayn */;
+			target = 13B07F861A680F5B00A75B9A /* Formlayn */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* formlayn-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Formlayn-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -675,14 +675,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97906EB916CD614C267EA60 /* Pods-formlayn-formlaynTests.debug.xcconfig */;
+			baseConfigurationReference = D97906EB916CD614C267EA60 /* Pods-Formlayn-FormlaynTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = formlaynTests/Info.plist;
+				INFOPLIST_FILE = FormlaynTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -692,17 +692,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/formlayn.app/formlayn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Formlayn.app/Formlayn";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2CA7DEBB206919E67870899 /* Pods-formlayn-formlaynTests.release.xcconfig */;
+			baseConfigurationReference = A2CA7DEBB206919E67870899 /* Pods-Formlayn-FormlaynTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = formlaynTests/Info.plist;
+				INFOPLIST_FILE = FormlaynTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -712,19 +712,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/formlayn.app/formlayn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Formlayn.app/Formlayn";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACB115B90F46912161B7548D /* Pods-formlayn.debug.xcconfig */;
+			baseConfigurationReference = ACB115B90F46912161B7548D /* Pods-Formlayn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = formlayn/Info.plist;
+				INFOPLIST_FILE = Formlayn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -732,7 +732,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = formlayn;
+				PRODUCT_NAME = Formlayn;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -741,12 +741,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAA64D9EFF1A62230E732B5B /* Pods-formlayn.release.xcconfig */;
+			baseConfigurationReference = DAA64D9EFF1A62230E732B5B /* Pods-Formlayn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = formlayn/Info.plist;
+				INFOPLIST_FILE = Formlayn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -754,7 +754,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = formlayn;
+				PRODUCT_NAME = Formlayn;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -762,7 +762,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DFF186C9BFE4D8302386511 /* Pods-formlayn-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6DFF186C9BFE4D8302386511 /* Pods-Formlayn-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -773,14 +773,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "formlayn-tvOS/Info.plist";
+				INFOPLIST_FILE = "Formlayn-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.formlayn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Formlayn-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -790,7 +790,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936F92BAED2ADB8FD83760A3 /* Pods-formlayn-tvOS.release.xcconfig */;
+			baseConfigurationReference = 936F92BAED2ADB8FD83760A3 /* Pods-Formlayn-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -801,14 +801,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "formlayn-tvOS/Info.plist";
+				INFOPLIST_FILE = "Formlayn-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.formlayn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Formlayn-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -818,7 +818,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 088B7D80DED1719FF7809C1D /* Pods-formlayn-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 088B7D80DED1719FF7809C1D /* Pods-Formlayn-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -828,24 +828,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "formlayn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Formlayn-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.formlayn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Formlayn-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/formlayn-tvOS.app/formlayn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Formlayn-tvOS.app/Formlayn-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FDA3095041ED317D4C1F294 /* Pods-formlayn-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8FDA3095041ED317D4C1F294 /* Pods-Formlayn-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -855,17 +855,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "formlayn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Formlayn-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.formlayn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Formlayn-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/formlayn-tvOS.app/formlayn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Formlayn-tvOS.app/Formlayn-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -986,7 +986,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "formlaynTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FormlaynTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -995,7 +995,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "formlayn" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Formlayn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1004,7 +1004,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "formlayn-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Formlayn-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1013,7 +1013,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "formlayn-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Formlayn-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1022,7 +1022,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "formlayn" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Formlayn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
