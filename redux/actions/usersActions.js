@@ -1,7 +1,10 @@
 import * as actionTypes from './actionTypes';
+import { Platform } from 'react-native';
 import {openDatabase} from 'react-native-sqlite-storage';
 
-var db = openDatabase({ name: 'formlayn.db', createFromLocation: 1 });
+const location = Platform.OS  == 'android' ? '~formlayn.db': 1;
+
+var db = openDatabase({ name: 'formlayn.db', createFromLocation: location });
 
 // GET USERS
 

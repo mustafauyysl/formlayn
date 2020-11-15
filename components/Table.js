@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Platform } from 'react-native';
 import TableButton from '../components/TableButton';
 import Colors from '../constants/colors';
 
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginHorizontal: 50,
+        marginHorizontal: Platform.OS == 'android' ? 40 : 50,
         marginVertical: 2
     },
     amount: {

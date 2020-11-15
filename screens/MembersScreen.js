@@ -44,14 +44,35 @@ class MembersScreen extends Component{
     }
 
     showAlert = () => {
-        this.setState({ showAlert: !this.state.showAlert })
+        this.setState({ showAlert: true })
     }
 
-    deleteUser = (id) => { 
-        this.props.actions.deleteUser(id);
-        this.setState({ showAlert: false });
-        this.props.actions.getUsers();
+    hideAlert = () => {
+        this.setState({ showAlert: false })
+    }
+
+    deleteUserAlert = (id) => { 
+        Alert.alert(
+            "Uyarı!",
+            "Üyeyi silmek istiyor musunuz?",
+            [
+              {
+                text: "Hayır",
+                onPress: () => console.log("Cancel Pressed"),
+                style: "cancel"
+              },
+              { text: "Evet", onPress: () => this.deleteUser(id) }
+            ],
+            { cancelable: false }
+          );
+      
+
     }   
+
+    deleteUser = (id) => {
+        this.props.actions.deleteUser(id);
+        this.props.actions.getUsers();
+    }
 
     exportFile = () => {
         var data = this.props.users;
@@ -68,10 +89,8 @@ class MembersScreen extends Component{
 
     handleEmail = (file) => {
         Mailer.mail({
-          subject: 'need help',
-          recipients: ['mustafauyysl@gmail.com'],
-          body: '<b>A Bold Body</b>',
-          customChooserTitle: "This is my new title", // Android only (defaults to "Send Mail")
+          subject: 'Üyeleriniz',
+          body: '<b>Üyeleriniz ektedir.</b>',
           isHTML: true,
           attachments: [{
             path: file,  // The absolute path of the file from which to read data.
@@ -99,28 +118,8 @@ class MembersScreen extends Component{
                     line={item.index+1}
                     nameSurname={item.item.nameSurname}
                     updateButton={() => this.updateMember(item.item)}
-                    deleteButton={() => this.showAlert()}
+                    deleteButton={() => this.deleteUserAlert(item.item.id)}
                 />
-            
-                <AwesomeAlert
-                    show={this.state.showAlert}
-                    showProgress={false}
-                    title="Üyeyi silmek istiyor musunuz?"
-                    closeOnTouchOutside={true}
-                    closeOnHardwareBackPress={false}
-                    showCancelButton={true}
-                    showConfirmButton={true}
-                    confirmText="Evet"
-                    cancelText='Hayır'
-                    cancelButtonColor={Colors.redColor}
-                    confirmButtonColor={Colors.greenColor}
-                    onCancelPressed={() => {
-                        this.showAlert();
-                    }}
-                    onConfirmPressed={() => {
-                        this.deleteUser(item.item.id);
-                    }}
-                />   
             </View>
 
         )
@@ -157,6 +156,26 @@ class MembersScreen extends Component{
                             onPress={() => this.props.navigation.navigate('AddMember')}
                         />
                     </View>
+
+                    <AwesomeAlert
+                        show={this.state.showAlert}
+                        showProgress={false}
+                        title="Üyeyi silmek istiyor musunuz?"
+                        closeOnTouchOutside={true}
+                        closeOnHardwareBackPress={false}
+                        showCancelButton={true}
+                        showConfirmButton={true}
+                        confirmText="Evet"
+                        cancelText='Hayır'
+                        cancelButtonColor={Colors.redColor}
+                        confirmButtonColor={Colors.greenColor}
+                        onCancelPressed={() => {
+                            this.hideAlert();
+                        }}
+                        onConfirmPressed={() => {
+                            this.deleteUser();
+                        }}
+                    />   
 
                 </KeyboardAvoidingView> 
             </LinearGradient>
