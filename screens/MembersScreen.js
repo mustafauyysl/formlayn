@@ -6,7 +6,9 @@ import {
     KeyboardAvoidingView, 
     Platform, 
     TouchableWithoutFeedback, 
-    Keyboard 
+    Keyboard, 
+    Text,
+    Alert
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Header from '../components/Header';
@@ -16,6 +18,15 @@ import {connect} from 'react-redux';
 import AwesomeAlert from 'react-native-awesome-alerts';
 import {bindActionCreators} from 'redux';
 import * as usersActions from '../redux/actions/usersActions';
+import Button from '../components/Button';
+import XLSX from 'xlsx';
+import { writeFile, readFile, DocumentDirectoryPath, DownloadDirectoryPath } from 'react-native-fs';
+import Mailer from 'react-native-mail';
+
+
+const DDP = DocumentDirectoryPath + '/';
+const input = res => res;
+const output = str => str;
 
 
 class MembersScreen extends Component{
@@ -41,6 +52,45 @@ class MembersScreen extends Component{
         this.setState({ showAlert: false });
         this.props.actions.getUsers();
     }   
+
+    exportFile = () => {
+        var data = this.props.users;
+        const ws = XLSX.utils.json_to_sheet(data);
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, 'SheetJS');
+        const wbout = XLSX.write(wb, {type: 'binary', bookType: 'xlsx'});
+        const file = DDP + 'Üyeler.xlsx';
+
+        writeFile(file, output(wbout), 'ascii').then((res) => {
+            this.handleEmail(file)
+        }).catch((err) => { Alert.alert('Error: '+ err.message); });
+    }
+
+    handleEmail = (file) => {
+        Mailer.mail({
+          subject: 'need help',
+          recipients: ['mustafauyysl@gmail.com'],
+          body: '<b>A Bold Body</b>',
+          customChooserTitle: "This is my new title", // Android only (defaults to "Send Mail")
+          isHTML: true,
+          attachments: [{
+            path: file,  // The absolute path of the file from which to read data.
+            type: 'xlsx',   // Mime Type: jpg, png, doc, ppt, html, pdf, csv
+            // mimeType - use only if you want to use custom type
+            name: '',   // Optional: Custom filename for attachment
+          }]
+        }, (error, event) => {
+          Alert.alert(
+            error,
+            event,
+            [
+              {text: 'Ok', onPress: () => console.log('OK: Email Error Response')},
+              {text: 'Cancel', onPress: () => console.log('CANCEL: Email Error Response')}
+            ],
+            { cancelable: true }
+          )
+        });
+      }
 
     renderItem = (item) => {
         return(
@@ -93,6 +143,21 @@ class MembersScreen extends Component{
                             renderItem={item => this.renderItem(item)}
                         />
                     </TouchableWithoutFeedback>
+                    <View style={styles.buttonContainer}>
+                        <Button 
+                            buttonBackgroundColor={Colors.primaryColor}
+                            title='İndir'
+                            icon='download'
+                            onPress={() => this.exportFile()}
+                        />
+                        <Button 
+                            buttonBackgroundColor={Colors.greenColor}
+                            title='Yeni Üye'
+                            icon='person'
+                            onPress={() => this.props.navigation.navigate('AddMember')}
+                        />
+                    </View>
+
                 </KeyboardAvoidingView> 
             </LinearGradient>
         )
@@ -109,6 +174,12 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 430
     },
+    buttonContainer: {
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'row'
+    }
 });
 
 function mapStateToProps(state) {
