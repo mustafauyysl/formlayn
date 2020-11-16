@@ -19,8 +19,8 @@
 		2EE36B1F69C6EA39AEBBD1A3 /* libPods-Formlayn-FormlaynTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DBE123930CEF59DB78BC32 /* libPods-Formlayn-FormlaynTests.a */; };
 		45E5D3C7255FB8C8008805E1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 45E5D3C6255FB8C8008805E1 /* www */; };
 		76C71FC57B7B7CA4D4C7A549 /* libPods-Formlayn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49407BD8F79CD787841F9CB8 /* libPods-Formlayn-tvOSTests.a */; };
-		777577C19EBAF22084915766 /* libPods-Formlayn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		921CA99B164E73400D7316D1 /* libPods-Formlayn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "Formlayn-tvOS";
+		};
+		456673922562327A00343853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4566738E2562327900343853 /* RNMail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46FEDE7F1AFF192F00D3261C;
+			remoteInfo = RNMail;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +63,7 @@
 		2D02E47B1E0B4A5D006451C7 /* Formlayn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Formlayn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Formlayn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Formlayn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F084E4EDAB265549B13D370 /* libPods-Formlayn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4566738E2562327900343853 /* RNMail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMail.xcodeproj; path = "../node_modules/react-native-mail/RNMail.xcodeproj"; sourceTree = "<group>"; };
 		45E5D3C6255FB8C8008805E1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = Formlayn/www; sourceTree = "<group>"; };
 		47BBA5AF0A3DBC5CC982C7E8 /* libPods-Formlayn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49407BD8F79CD787841F9CB8 /* libPods-Formlayn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Formlayn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777577C19EBAF22084915766 /* libPods-Formlayn.a in Frameworks */,
+				921CA99B164E73400D7316D1 /* libPods-Formlayn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +160,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4566738F2562327900343853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456673932562327A00343853 /* libRNMail.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				4566738E2562327900343853 /* RNMail.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -321,6 +338,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4566738F2562327900343853 /* Products */;
+					ProjectRef = 4566738E2562327900343853 /* RNMail.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* Formlayn */,
@@ -330,6 +353,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		456673932562327A00343853 /* libRNMail.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMail.a;
+			remoteRef = 456673922562327A00343853 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -724,7 +757,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ARU7XMZQHG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Formlayn/Info.plist;
@@ -749,7 +782,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ARU7XMZQHG;
 				INFOPLIST_FILE = Formlayn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

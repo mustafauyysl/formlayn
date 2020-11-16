@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginHorizontal: Platform.OS == 'android' ? 40 : 50,
+        marginHorizontal: Platform.OS == 'android' ? 40 : 35,
         marginVertical: 2
     },
     amount: {
