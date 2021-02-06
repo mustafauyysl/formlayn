@@ -9,12 +9,12 @@ const store = configureStore();
 function App() {
   useEffect(() => {
     SplashScreen.hide();
-  })
-  return(
+  });
+  return (
     <Provider store={store}>
-       <MainNavigator />
+      <MainNavigator />
     </Provider>
-  )
+  );
 }
 
 export default App;

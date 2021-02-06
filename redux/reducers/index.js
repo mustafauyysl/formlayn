@@ -5,10 +5,10 @@ import selectUserReducer from './users/selectUserReducer';
 import updateAlertVisibleReducer from './alerts/updateAlertVisibleReducer';
 
 const rootReducer = combineReducers({
-    usersListReducer,
-    addAlertVisibleReducer,
-    updateAlertVisibleReducer,
-    selectUserReducer,
+  usersListReducer,
+  addAlertVisibleReducer,
+  updateAlertVisibleReducer,
+  selectUserReducer,
 });
 
 export default rootReducer;
